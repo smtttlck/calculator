@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #eb6f6f;
+}
+
+.calculater {
+    border: 1px #000 solid;
+    border-radius: 10px;
+    width: 400px;
+    height: 600px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1b1b;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.calculater .text {
+    height: 30%;
+    border: 1px #000 solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-size: 40px;
+    background-color: grey;
+}
+
+.calculater .tuslar {
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calculater .tus {
+    box-sizing: border-box;
+    width: 22%;
+    height: 22%;
+    text-align: center;
+    border: 1px #000 solid;
+    border-radius: 50%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: rgb(233, 203, 203);
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.calculater .islem {
+    color: blue;
+}
+
+.calculater .equal {
+    height: 44%;
+    margin-top: -65px;
+    border-radius: 25%;
+}
+
+.calculater .hidden {
+    visibility: hidden;
+}
